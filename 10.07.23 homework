@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homeork form </title>
+</head>
+<body>
+    <h1>Create An Account</h1>
+    <br />
+     <form>
+         <label for="email">email:</label><br/>
+         <input type="email" id="email" name="email" required>
+         <br /><br />
+         <label for="password">Password: &nbsp; </label><br />
+         <input type="password" id="password" name="password" required>        
+         <br /><br />
+         <label for="Age">Age:</label>
+         <select id="Age" name="Age" required>
+             <option value="">choose</option>
+             <option value="Under 18">Under 18</option>
+             <option value="18-35">18-35</option>
+             <option value="35-46">35-46</option>
+             <option value="46+">46+</option>
+         </select>
+         <br /><br />
+         <label for="info">Tell us a little about yourself:</label><br />
+         <textarea id="info" name="info" rows="4" cols="50" required></textarea>
+         <br /><br />
+         <label><input type="checkbox" required /> I accept the<a href="http://127.0.0.1:5500/10.7.23/TOS.html"> terms and conditions</a></label>
+         <br /><br />
+         <input type="submit" value="sign up">
+     </form>
+</body>
+</html>
